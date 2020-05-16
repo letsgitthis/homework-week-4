@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <title>Quiz</title>
+    </head>
+    <body>
+        <header class="header">
+            <h1>Timed Quiz!</h1>
+            <h2 class="hide" id="game-over"></h2>
+        </header>
+        
+        <main>
+            <h2 id="points"></h2>
+            <h2 id="timer"></h2>
+            <div id="question-card" class="container">
+                <div class="row">
+                    <div class="col-md-2" id="leftspace"></div>
+                    <div class="col-md-8" id="card">
+                        <div id="question"></div>
+                        <div id="answers" class="buttonGrid">
+                            
+                        </div>
+                        <div class="col-md-2" id="rightspace"></div>
+                    </div>
+                </div>
+                <div class="select">
+                    <button id="start" class="start btn">Start</button>
+                </div>
+            </div>
+            <div class="endselect">
+            <h3 id="score"></h3>
+            <ul id="scoresList"></ul>
+                <h3 class="hide" id= "gameover"></h3>
+                <input class="hide" id="player" placeholder="Player Name">
+                
+            </div>
+            
+        </main>
+        <footer class="footer">
+            <h4>Made by John Bentley</h4>
+            <p>Homework-week-4 2020</p>
+        </footer>
+        <script type="text/javascript" src="./assets/script.js"></script>
+    </body>
+    </html>
